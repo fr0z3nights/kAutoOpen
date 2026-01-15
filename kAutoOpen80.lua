@@ -90,9 +90,11 @@ end)
 
 kAutoOpen80:Register('BAG_UPDATE_DELAYED', function(bag)
 	if(atBank or atMail or atMerchant) then return end
+	if InCombatLockdown and InCombatLockdown() then return end
+	if C_Loot and C_Loot.IsLootOpen and C_Loot.IsLootOpen() then return end
 	
 	for bag = 0, 4 do
-		for slot = 0, C_Container.GetContainerNumSlots(bag) do
+		for slot = 1, C_Container.GetContainerNumSlots(bag) do
 			local id = C_Container.GetContainerItemID(bag, slot)
 			--	Alliance Portal Room
 			if	GetMinimapZoneText() == "Wizard's Sanctum" and id and autoOpenItems80[id] then
