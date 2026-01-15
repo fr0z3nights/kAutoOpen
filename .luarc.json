@@ -1,0 +1,14 @@
+{
+  "$schema": "https://raw.githubusercontent.com/LuaLS/vscode-lua/master/setting/schema.json",
+  "runtime.version": "Lua 5.1",
+  "diagnostics.globals": [
+    "kAutoOpen_GetCooldown",
+    "kAutoOpen_Settings",
+    "kAutoOpen_LastOpenTime",
+
+    "C_Container",
+    "C_Loot",
+    "DEFAULT_CHAT_FRAME",
+    "InCombatLockdown"
+  ]
+}

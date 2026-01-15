@@ -1,3 +1,5 @@
+---@diagnostic disable: duplicate-index
+
 local kAutoOpen = CreateFrame('Frame')
 
 kAutoOpen:SetScript('OnEvent', function(self, event, ...) self[event](...) end)
