@@ -167,7 +167,9 @@ kAutoOpen03:Register('BAG_UPDATE_DELAYED', function(bag)
 	for bag = 0, 4 do
 		for slot = 1, C_Container.GetContainerNumSlots(bag) do
 			local id = C_Container.GetContainerItemID(bag, slot)
-			if id and autoOpenItems03[id] then
+			local info = C_Container.GetContainerItemInfo(bag, slot)
+			local canOpen = info and info.hasLoot and not info.isLocked
+			if id and autoOpenItems03[id] and canOpen then
 				DEFAULT_CHAT_FRAME:AddMessage("|cFFFFD700!AutoOpen |cFF4FE34F03 " .. C_Container.GetContainerItemLink(bag, slot))
 				C_Container.UseContainerItem(bag, slot)
 				kAutoOpen_LastOpenTime = GetTime()

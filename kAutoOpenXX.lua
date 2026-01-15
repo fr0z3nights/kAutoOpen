@@ -96,43 +96,45 @@ kAutoOpenXX:Register('BAG_UPDATE_DELAYED', function(bag)
 	for bag = 0, 4 do
 		for slot = 1, C_Container.GetContainerNumSlots(bag) do
 			local id = C_Container.GetContainerItemID(bag, slot)
+			local info = C_Container.GetContainerItemInfo(bag, slot)
+			local canOpen = info and info.hasLoot and not info.isLocked
 			--	Alliance Portal Room
-			if	GetMinimapZoneText() == "Wizard's Sanctum" and id and autoOpenItemsXX[id] then
+			if	GetMinimapZoneText() == "Wizard's Sanctum" and id and autoOpenItemsXX[id] and canOpen then
 				DEFAULT_CHAT_FRAME:AddMessage("|cFFFFD700!AutoOpen |cFF4FE34FMX " .. C_Container.GetContainerItemLink(bag, slot))
 				C_Container.UseContainerItem(bag, slot)
 				kAutoOpen_LastOpenTime = GetTime()
 				return
 			end
 			--	Horde Portal Room
-			if	GetMinimapZoneText() == "Pathfinder's Den" and id and autoOpenItemsXX[id] then
+			if	GetMinimapZoneText() == "Pathfinder's Den" and id and autoOpenItemsXX[id] and canOpen then
 				DEFAULT_CHAT_FRAME:AddMessage("|cFFFFD700!AutoOpen |cFF4FE34FMX " .. C_Container.GetContainerItemLink(bag, slot))
 				C_Container.UseContainerItem(bag, slot)
 				kAutoOpen_LastOpenTime = GetTime()
 				return
 			end
 			--	Dalaran Portal Room
-			if	GetMinimapZoneText() == "Chamber of the Guardian" and id and autoOpenItemsXX[id] then
+			if	GetMinimapZoneText() == "Chamber of the Guardian" and id and autoOpenItemsXX[id] and canOpen then
 				DEFAULT_CHAT_FRAME:AddMessage("|cFFFFD700!AutoOpen |cFF4FE34FMX " .. C_Container.GetContainerItemLink(bag, slot))
 				C_Container.UseContainerItem(bag, slot)
 				kAutoOpen_LastOpenTime = GetTime()
 				return
 			end
 			--	Dornogal
-			if	GetMinimapZoneText() == "Foundation Hall" and id and autoOpenItemsXX[id] then
+			if	GetMinimapZoneText() == "Foundation Hall" and id and autoOpenItemsXX[id] and canOpen then
 				DEFAULT_CHAT_FRAME:AddMessage("|cFFFFD700!AutoOpen |cFF4FE34FMX " .. C_Container.GetContainerItemLink(bag, slot))
 				C_Container.UseContainerItem(bag, slot)
 				kAutoOpen_LastOpenTime = GetTime()
 				return
 			end
 			--	Caverns of Time
-			if	GetMinimapZoneText() == "Caverns of Time" and id and autoOpenItemsXX[id] then
+			if	GetMinimapZoneText() == "Caverns of Time" and id and autoOpenItemsXX[id] and canOpen then
 				DEFAULT_CHAT_FRAME:AddMessage("|cFFFFD700!AutoOpen |cFF4FE34FMX " .. C_Container.GetContainerItemLink(bag, slot))
 				C_Container.UseContainerItem(bag, slot)
 				kAutoOpen_LastOpenTime = GetTime()
 				return
 			end
 			--	Stonelight Rest
-			if	GetMinimapZoneText() == "Stonelight Rest" and id and autoOpenItemsXX[id] then
+			if	GetMinimapZoneText() == "Stonelight Rest" and id and autoOpenItemsXX[id] and canOpen then
 				DEFAULT_CHAT_FRAME:AddMessage("|cFFFFD700!AutoOpen |cFF4FE34FMX " .. C_Container.GetContainerItemLink(bag, slot))
 				C_Container.UseContainerItem(bag, slot)
 				kAutoOpen_LastOpenTime = GetTime()
