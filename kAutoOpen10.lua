@@ -3,6 +3,7 @@ local kAutoOpen10 = CreateFrame('Frame')
 kAutoOpen10:SetScript('OnEvent', function(self, event, ...) self[event](...) end)
 
 local atBank, atMail, atMerchant, isLooting
+kAutoOpen_LastOpenTime = kAutoOpen_LastOpenTime or 0
 
 -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- --  |  -- -- -- -- -- -- -- -- -- -- -- -- OneDrive Sync: file:///C:\WoW\_retail_\WTF\UI\WoWUpdate.bat -- --
 --	KEY
@@ -268,6 +269,7 @@ kAutoOpen10:Register('BAG_UPDATE_DELAYED', function(bag)
 	if(atBank or atMail or atMerchant) then return end
 	if InCombatLockdown and InCombatLockdown() then return end
 	if C_Loot and C_Loot.IsLootOpen and C_Loot.IsLootOpen() then return end
+	if GetTime and (GetTime() - (kAutoOpen_LastOpenTime or 0)) < 1.5 then return end
 	
 	for bag = 0, 4 do
 		for slot = 1, C_Container.GetContainerNumSlots(bag) do
@@ -275,6 +277,7 @@ kAutoOpen10:Register('BAG_UPDATE_DELAYED', function(bag)
 			if id and autoOpenItems10[id] then
 				DEFAULT_CHAT_FRAME:AddMessage("|cFFFFD700!AutoOpen |cFF4FE34F10 " .. C_Container.GetContainerItemLink(bag, slot))
 				C_Container.UseContainerItem(bag, slot)
+				kAutoOpen_LastOpenTime = GetTime()
 				return
 			end
 		end

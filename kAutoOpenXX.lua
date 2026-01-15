@@ -3,6 +3,7 @@ local kAutoOpenXX = CreateFrame('Frame')
 kAutoOpenXX:SetScript('OnEvent', function(self, event, ...) self[event](...) end)
 
 local atBank, atMail, atMerchant, isLooting
+kAutoOpen_LastOpenTime = kAutoOpen_LastOpenTime or 0
 
 -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- --  |  -- -- -- -- -- -- -- -- -- -- -- -- OneDrive Sync: file:///C:\WoW\_retail_\WTF\UI\WoWUpdate.bat -- --
 --	KEY
@@ -90,6 +91,7 @@ kAutoOpenXX:Register('BAG_UPDATE_DELAYED', function(bag)
 	if(atBank or atMail or atMerchant) then return end
 	if InCombatLockdown and InCombatLockdown() then return end
 	if C_Loot and C_Loot.IsLootOpen and C_Loot.IsLootOpen() then return end
+	if GetTime and (GetTime() - (kAutoOpen_LastOpenTime or 0)) < 1.5 then return end
 	
 	for bag = 0, 4 do
 		for slot = 1, C_Container.GetContainerNumSlots(bag) do
@@ -98,36 +100,42 @@ kAutoOpenXX:Register('BAG_UPDATE_DELAYED', function(bag)
 			if	GetMinimapZoneText() == "Wizard's Sanctum" and id and autoOpenItemsXX[id] then
 				DEFAULT_CHAT_FRAME:AddMessage("|cFFFFD700!AutoOpen |cFF4FE34FMX " .. C_Container.GetContainerItemLink(bag, slot))
 				C_Container.UseContainerItem(bag, slot)
+				kAutoOpen_LastOpenTime = GetTime()
 				return
 			end
 			--	Horde Portal Room
 			if	GetMinimapZoneText() == "Pathfinder's Den" and id and autoOpenItemsXX[id] then
 				DEFAULT_CHAT_FRAME:AddMessage("|cFFFFD700!AutoOpen |cFF4FE34FMX " .. C_Container.GetContainerItemLink(bag, slot))
 				C_Container.UseContainerItem(bag, slot)
+				kAutoOpen_LastOpenTime = GetTime()
 				return
 			end
 			--	Dalaran Portal Room
 			if	GetMinimapZoneText() == "Chamber of the Guardian" and id and autoOpenItemsXX[id] then
 				DEFAULT_CHAT_FRAME:AddMessage("|cFFFFD700!AutoOpen |cFF4FE34FMX " .. C_Container.GetContainerItemLink(bag, slot))
 				C_Container.UseContainerItem(bag, slot)
+				kAutoOpen_LastOpenTime = GetTime()
 				return
 			end
 			--	Dornogal
 			if	GetMinimapZoneText() == "Foundation Hall" and id and autoOpenItemsXX[id] then
 				DEFAULT_CHAT_FRAME:AddMessage("|cFFFFD700!AutoOpen |cFF4FE34FMX " .. C_Container.GetContainerItemLink(bag, slot))
 				C_Container.UseContainerItem(bag, slot)
+				kAutoOpen_LastOpenTime = GetTime()
 				return
 			end
 			--	Caverns of Time
 			if	GetMinimapZoneText() == "Caverns of Time" and id and autoOpenItemsXX[id] then
 				DEFAULT_CHAT_FRAME:AddMessage("|cFFFFD700!AutoOpen |cFF4FE34FMX " .. C_Container.GetContainerItemLink(bag, slot))
 				C_Container.UseContainerItem(bag, slot)
+				kAutoOpen_LastOpenTime = GetTime()
 				return
 			end
 			--	Stonelight Rest
 			if	GetMinimapZoneText() == "Stonelight Rest" and id and autoOpenItemsXX[id] then
 				DEFAULT_CHAT_FRAME:AddMessage("|cFFFFD700!AutoOpen |cFF4FE34FMX " .. C_Container.GetContainerItemLink(bag, slot))
 				C_Container.UseContainerItem(bag, slot)
+				kAutoOpen_LastOpenTime = GetTime()
 				return
 			end
 
