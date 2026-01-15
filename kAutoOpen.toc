@@ -21,6 +21,10 @@
 ## Category-zhCN: 物品栏
 ## Category-zhTW: 物品欄
 
+## SavedVariables: kAutoOpen_Settings
+
+kAutoOpenCore.lua
+
 kAutoOpen12.lua
 kAutoOpen11.lua
 kAutoOpen10.lua

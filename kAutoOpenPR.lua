@@ -84,7 +84,7 @@ kAutoOpenPortal:Register('BAG_UPDATE_DELAYED', function(bag)
 	if(atBank or atMail or atMerchant) then return end
 	if InCombatLockdown and InCombatLockdown() then return end
 	if C_Loot and C_Loot.IsLootOpen and C_Loot.IsLootOpen() then return end
-	if GetTime and (GetTime() - (kAutoOpen_LastOpenTime or 0)) < 1.5 then return end
+	if GetTime and (GetTime() - (kAutoOpen_LastOpenTime or 0)) < (kAutoOpen_GetCooldown and kAutoOpen_GetCooldown() or 2) then return end
 	
 	for bag = 0, 4 do
 		for slot = 1, C_Container.GetContainerNumSlots(bag) do
