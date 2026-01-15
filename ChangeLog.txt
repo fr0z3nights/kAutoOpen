@@ -1,0 +1,381 @@
+Thanks to the original author of the kAutoOpen addon Kellett.
+
+Curse Update will happen when one the following occurs.
+ - If I have added a certain amount of current expansion items since last release.
+ - On Patch Day (if still working).
+ - When I can be bothered :P
+
+OneDrive (https://1drv.ms/f/s!AiSfe94wb0vWjQarA4JNTkq0uMfl)
+ - Updates when I run my WoWUpdate batch file (syncs files between accounts and OneDrive)
+ - Date on Zip is the last time the batch file ran, it updates even if no changes are made.
+ - Directory:  C:\Program Files (x86)\World of Warcraft\Interface\Addons\kAutoOpen\
+ 
+-- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- --
+-- -- -- -- -- -- -- -- -- -- -- -- - - -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- --
+          Patch  YYMMDD 
+kAutoOpen 11.2.7 251225
+-- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- 
+
+ - Winter Veil Gifts Added
+
+Notes:
+ - If it isn't working when you log in (or stops), a simple /reload may fix it :)
+ - Something missing?  Message me on Discord (fr0z3night) the ItemID/Name, and I'll look into it.
+ - OneDrive is updated whenever I play, so if I added something since the last update, it'll be there. https://1drv.ms/f/s!AiSfe94wb0vWjQarA4JNTkq0uMfl
+ - Use New Openables to use non-cache items and caches if this fails.  https://www.curseforge.com/wow/addons/new-openables-continued
+
+-- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- --
+-- -- -- -- -- -- -- -- -- -- -- -- - - -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- --
+
+kAutoOpen 11.2.7 251117
+-- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- 
+
+ - Midnight Beta
+   - Limited Test, but works
+
+Notes:
+ - If it isn't working when you log in (or stops), a simple /reload may fix it :)
+ - Something missing?  Message me on Discord (fr0z3night) the ItemID/Name, and I'll look into it.
+ - OneDrive is updated whenever I play, so if I added something since the last update, it'll be there. https://1drv.ms/f/s!AiSfe94wb0vWjQarA4JNTkq0uMfl
+ - Use New Openables to use non-cache items and caches if this fails.  https://www.curseforge.com/wow/addons/new-openables-continued
+
+-- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- --
+-- -- -- -- -- -- -- -- -- -- -- -- - - -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- --
+
+kAutoOpen 11.2.5 251010
+-- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- 
+
+ - Legion Remix
+   - 9 Items now added to Legion (kAutoOpen07.lua)
+
+Notes:
+ - If it isn't working when you log in (or stops), a simple /reload may fix it :)
+ - Something missing?  Message me on Discord (fr0z3night) the ItemID/Name, and I'll look into it.
+ - OneDrive is updated whenever I play, so if I added something since the last update, it'll be there. https://1drv.ms/f/s!AiSfe94wb0vWjQarA4JNTkq0uMfl
+ - Use New Openables to use non-cache items and caches if this fails.  https://www.curseforge.com/wow/addons/new-openables-continued
+
+-- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- --
+-- -- -- -- -- -- -- -- -- -- -- -- - - -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- --
+
+kAutoOpen 11.2.0.251001
+-- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- 
+
+ - Just a few additions
+
+Notes:
+ - If it isn't working when you log in (or stops), a simple /reload may fix it :)
+ - Something missing?  Message me on Discord (fr0z3night) the ItemID/Name, and I'll look into it.
+ - OneDrive is updated whenever I play, so if I added something since the last update, it'll be there. https://1drv.ms/f/s!AiSfe94wb0vWjQarA4JNTkq0uMfl
+ - Use New Openables to to use non-cache items and caches if this fails.  https://www.curseforge.com/wow/addons/new-openables-continued
+
+-- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- --
+-- -- -- -- -- -- -- -- -- -- -- -- - - -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- --
+
+kAutoOpen 11.1.7.250701
+-- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- 
+
+ - Just a few additions, added Treasure Gobby Chest most recently.
+
+Notes:
+ - If it isn't working when you log in (or stops), a simple /reload may fix it :)
+ - The most up-to-date files are on my OneDrive  https://1drv.ms/f/s!AiSfe94wb0vWjQarA4JNTkq0uMfl
+ - Use addon New Openables to use looted items and caches if this fails.  https://www.curseforge.com/wow/addons/new-openables-continued
+
+-- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- --
+-- -- -- -- -- -- -- -- -- -- -- -- - - -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- --
+
+kAutoOpen 11.1.5.25XXXX
+-- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- 
+
+ - Removed 'Brightly Colored Egg', No Longer Opens, Use New Openables Below (Sorry for lateness)
+
+Notes:
+ - If it isn't working when you log in (or stops), a simple /reload may fix it :)
+ - The most up-to-date files are on my OneDrive  https://1drv.ms/f/s!AiSfe94wb0vWjQarA4JNTkq0uMfl
+ - Use addon New Openables to use looted items and caches if this fails.  https://www.curseforge.com/wow/addons/new-openables-continued
+
+-- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- --
+-- -- -- -- -- -- -- -- -- -- -- -- - - -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- --
+
+kAutoOpen 11.1.5.250428
+-- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- 
+
+ - Patch seems a little broken, sooooo fun, missed out on the bug during launch bugger :P
+ - Mainly updating due to Category system in addons
+   - Category "Inventory" added to Updated TOC (realized I haven't for a while)
+   - Added an icon.
+ - I only play rarely, so will add items as I come across them, added a few recently
+ - Added the mysterious bags I've come across since last update
+
+Notes:
+ - If it isn't working when you log in (or stops), a simple /reload may fix it :)
+ - The most up-to-date files are on my OneDrive  https://1drv.ms/f/s!AiSfe94wb0vWjQarA4JNTkq0uMfl
+ - Use addon New Openables to use looted items and caches if this fails.  https://www.curseforge.com/wow/addons/new-openables-continued
+
+-- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- --
+-- -- -- -- -- -- -- -- -- -- -- -- - - -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- --
+
+kAutoOpen 11.1.5.zip    (2025_04_25)
+-- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- 
+
+ - Patch seems a little broken, sooooo fun, missed out on the bug during launch bugger :P
+ - Mainly updating due to Category system in addons
+   - Category "Inventory" added to Updated TOC (realized I haven't for a while)
+   - Added an icon.
+ - I only play rarely, so will add items as I come across them, added a few recently
+
+Notes:
+ - If it isn't working when you log in (or stops), a simple /reload may fix it :)
+ - The most up-to-date files are on my [OneDrive](https://1drv.ms/f/s!AiSfe94wb0vWjQarA4JNTkq0uMfl)
+ - Use addon [New Openables - Continued](https://www.curseforge.com/wow/addons/new-openables-continued) to use looted items and caches if this fails.
+
+-- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- --
+-- -- -- -- -- -- -- -- -- -- -- -- - - -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- --
+
+kAutoOpen 11.0.7.zip (2024_12_26)
+-- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- 
+Merry Christmas, just popping in to add the new presents to the add-on, don't mind me.
+
+WoW Patch 11.0.7 Siren Isle Update
+ - I only have a couple of the caches so far from the Siren Isle
+ - I only started playing the patch last night, just a filler patch, not that exciting.
+
+Notes:
+ - If it isn't working when you log in (or stops), a simple /reload may fix it :)
+ - The most up-to-date files are on my [OneDrive](https://1drv.ms/f/s!AiSfe94wb0vWjQarA4JNTkq0uMfl)
+ - Use addon [New Openables - Continued](https://www.curseforge.com/wow/addons/new-openables-continued) to use looted items and caches if this fails to.
+
+-- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- --
+-- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- --
+
+kAutoOpen 11.0.7 (2024_12_20).zip		Curse Update
+-- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- 
+
+Note:  If it isn't working when you log in (or stops), a /reload should fix it :)
+
+WoW Patch 11.0.7 Siren Isle Update
+ - I only have a couple of the caches so far from the Siren Isle
+ - I only started playing the patch last night, just a filler patch, not that exciting.
+
+As always the most up-to-date files are on [OneDrive](https://1drv.ms/f/s!AiSfe94wb0vWjQarA4JNTkq0uMfl) 
+ - Now contains a zip file with the newest files
+	- Updated when I run update batch file and a change has been made to any of the files.
+
+Try [New Openables - Continued](https://www.curseforge.com/wow/addons/new-openables-continued)
+ - it's a great companion to kAutoOpen, for opening & using looted items (not just caches)
+			
+-- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- --
+kAutoOpen 11.0.5 (2024_11_12).zip		Curse Updated
+-- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- --
+
+Note:  If it isn't working when you log in or stops, like always just /reload
+
+WoW Anniversary Week 4 ... Did they just say player housing will be in Midnight
+	
+- Each expansion now has its own kAutoOpen file.
+  - Hey I got bored and decided to try it, seems to be working, as well, if not better than before idk tbh
+  - I figure that if it is a shorter list for each to go through, it's less likely for it to not work, well that's the idea
+  - Each has a corresponding message it displays 
+        - !AutoOpen 11 [ItemName]  -  The War Within            
+        - !AutoOpen EV [ItemName]  -  Events                    
+        - !AutoOpen 10 [ItemName]  -  Dragonflight, 09 for Shadowlands, etc.
+        - !AutoOpen 80 [ItemName]  -  Level 80 Caches
+            - Opens these caches in Portal Rooms mostly
+            - Stops chat spam on lower levels that get these caches
+            - Remove -- in relevant expansion section to open anywhere
+
+As always the most up-to-date files are on [OneDrive](https://1drv.ms/f/s!AiSfe94wb0vWjQarA4JNTkq0uMfl)
+
+Try [New Openables - Continued](https://www.curseforge.com/wow/addons/new-openables-continued)
+ - it's a great companion  to kAutoOpen, for opening & using looted items (not just caches)
+			
+-- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- --
+2024-10-31		Curse Update		kAutoOpen 11.0.5 (2024_10_31).zip
+-- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- --
+			
+WoW Anniversary Week 2
+
+- I'm only adding items as I get them at the moment, may go searching later.
+- Added anniversary and some other items
+  - Level 80 Anniversary caches
+    - Only attempts to open when porting in or out of Stormwind/Orgrimmar portal rooms
+    - They're causing chat window spam on lower-level characters carrying them
+    - Sorry for any inconvenience, though I would have had to cancel them out otherwise
+      - Remove -- on lines 125-126 in the LUA, if you don't have any lower-level toons
+      - Use [New Openables - Continued](https://www.curseforge.com/wow/addons/new-openables-continued), it's a great add-on for opening/using looted items
+
+As always the most up-to-date file is on [OneDrive](https://1drv.ms/f/s!AiSfe94wb0vWjQarA4JNTkq0uMfl)
+
+-- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- --
+2024-08-21		Curse Update		kAutoOpen 11.0.2 (2024_08_21).zip
+-- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- --
+			
+Just Updating for The War Within Pre-Patch
+
+- Nothing has been added for the Expansion yet... 3 days to go...
+- As of now it's working when it wants to
+- If it dies, even my Paladin may not be able to resurrect it
+- The most up-to-date file is in [OneDrive](https://1drv.ms/f/s!AiSfe94wb0vWjQarA4JNTkq0uMfl)
+
+
+-- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- --
+Previous Update Layout
+-- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- --
+
+	2023
+		 03
+			13		Yep Still havent uppsed the recent updates... yet
+			
+			01		Curse Update		kAutoOpen 10.0.5 (230301).zip
+					-	Hopefully update will be made if items are named by here
+					
+		 02	
+			28		Finished Naming the item numbers copied from Openables Be Gone
+					-	Keeping old/removed items like presents, so I dont keep adding them again later.
+		 
+			26		Added Items from Openables Be Gone Addon
+					-	Still naming them from WoWHead, though items will still be picked up.
+							(the addons lua is split, names aren't next to the numbers.)
+					-	Will do an upload after all items are named.
+			
+			24		Added Items from Auto Open Items Addon (Classic)
+					-	Mostly Classic items from Vanilla/Outland/Wrath that may or may not still be in game.
+					-	Moved classic event items to Events Classic (Below Cataclysm)
+							(this is just layout, they'll still be Opened if possible)
+			
+			11		Just playing around with the addon at this point, no new additions.
+					-	Changed display text when opening 
+							Old		'AutoOpening [Box Name]' 	1 Colour	'AutoOpening' in gold.						([Box Name] colour is its in game colour)
+							New		'!AutoOpening [Box Name]'	2 Colours	'!AutoOpen' in gold, 'ing' is now grey.		([Box Name] colour is its in game colour)
+					
+					NewOpenables addon is back! Its an awesome addon, for items this addon doesn't work on 
+					https://www.curseforge.com/wow/addons/new-openables-continued									
+					
+		 01
+			25		Curse Updated		kAutoOpen 10.0.5 (230125).zip
+
+					World of Warcraft: Dragonflight 	Patch 10.0.5
+					-	Looking forward to the Trading Post feature, and seeing what it offers each month.
+					-	White & Grey Transmogging should be interesting, especially the collection...
+					-	Patch number updated from 10.0.2 to 10.0.5
+					-	Finished sortring Items in Descending order during downtime.
+					-	Trying out item lines, for items with more than one number (example below) probably wont stick with it idk.
+							
+						[200468] = true, [200513] = true, [200515] = true, 	--	OP	Grand Hunt Spoils
+					
+			13		Friday 13th
+					-	Just put this here for the fact that it is Friday 13th
+					-	Hope you're all having fun in Dragonflight, or WoW in general.
+					-	No new updates, havent been playing the current game much,
+							just mucking around, I may continue the Descending sort soon.
+		 
+			01		Happy New Year
+						Hope you all have a good one.
+				
+	2022
+		 12
+			27		Changing the layout from Ascending to Descending Order (excluding the Event section)
+						So Expansions and items go 10-01, instead of 01-10 (some already done)
+		 
+			26		Curse Updated 		kAutoOpen 10.0.2 (221226).zip
+		
+					Added Event Section that will sit above the current expansion.
+					-	Because at least 1 present changes each year in the Winter Veil event.
+					-	Events are getting an update in 2023, according to the road map.
+					-	Will move other event items here when I can be bothered finding them.
+					-	Will remove any that have been replaced in subsequent years, hopefully none that haven't.
+					
+					[192093] = true,	--		Gently Shaken Gift
+						Replaced
+							[ 21270] = true,	--		Gently Shaken Gift		Winter Veil		2011 H?
+							[ 21271] = true,	--		Gently Shaken Gift		Winter Veil		2011 A?
+					[192094] = true,	--		Winter Veil Gift
+						Replaced
+							[ 34426] = true,	--		Winter Veil Gift		Winter Veil		2012 N?
+							[ 43504] = true,	--		Winter Veil Gift		Winter Veil		2013 N?
+							[ 46740] = true,	--		Winter Veil Gift		Winter Veil		2014 N?
+							[ 67443] = true,	--		Winter Veil Gift		Winter Veil		2015 N?
+							[ 70938] = true,	--		Winter Veil Gift		Winter Veil		2016 N?
+							[ 90892] = true,	--		Winter Veil Gift		Winter Veil		2017 N?	
+							[104319] = true,	--		Winter Veil Gift		Winter Veil		2018 N?
+							[116761] = true,	--		Winter Veil Gift		Winter Veil		2019 N?
+							[172224] = true,	--		Winter Veil Gift		Winter Veil		2020 H?
+							[172225] = true,	--		Winter Veil Gift		Winter Veil		2020 A?	
+							[187520] = true,	--		Winter Veil Gift		Winter Veil		2021 H?
+							[187561] = true,	--		Winter Veil Gift 		Winter Veil		2021 A?
+
+			25		Merry Christmas To All (that celebrate it)
+		
+			06		kAO221206_WoW10.0.2.zip		Curse: Upload
+				
+					[192892] = true,	--	OP	Timewatcher's Patience
+					[201817] = true,	--	OP	Twilight Cache
+					[201754] = true,	--	OP	Obsidian Forgemaster's Cache
+					[200069] = true,	--	OP	Obsidian Cache
+					[202052] = true,	--	OP	Timewatcher's Patience
+					[200515] = true,	--	OP	Grand Hunt Spoils (green))
+		
+			05		Kept getting booted off WoW over the weekend, after about 5 mins, each session, so tried every now and again.
+						Finally got back on early this morning (Monday) after not being able to since Friday night.
+							Not sure if thats a good thing, due to more players, or bad, with crappy connections, probably both.
+								Definitely on the Oceanic servers end anyways, as it was fine this morning...
+							
+					Raided the Openables weakara again with its newest update, added the following
+						Future adds from the weakara will just be marked with 'OP' to reference its origin from the weakaura.
+							thanks to its author for the constant updates :)
+				
+					[200095] = true,	--	OP	Supply-Laden Soup Pot
+					[202142] = true,	--	OP	Dragonbane Keep Strongbox
+					[199192] = true,	--	OP	Dragon Racer's Purse
+					[202097] = true,	--	OP	Bulging Box of Skins and Scales
+					[200073] = true,	--	OP	Valdrakken Treasures
+					[201352] = true,	--	OP	Bag of Leather Reagents
+					[198868] = true,	--	OP	Small Valdrakken Accord Supply Pack
+		
+			02		First level 70 (since I started playing in wrath :P)
+						Yea I know, slow, I'm playing when and how I feel like it, so all good.
+							Glad I have Zygor's Guides though  https://zygorguides.com/members/referred?code=147685 
+								Yea I know I'm lazy and got a crap memory, so it does help lol
+		
+			01		I have only come across 2 item so far in Dragonflight, yea I'm a little slow off the mark.
+					
+					[194072] = true,	--		Sack of Gold
+					[201353] = true,	--		Bag of Mail Armor Reagents
+			
+					Copied quite a few entries from the Openables weakaura, most from previous expansions.
+						If they are copied from Openables, they will be marked OP, thanks to the author
+							Though I still think someone should fix the addon as it was better
+						Some are still marked as false, as it is a click to use aura, some with words like cache I changed to TRUE.
+							I probably won't come across all these items, so if you do post a comment.
+								IF a TRUE doesn't work it will give an error (protected) when the item is in your bags, let me know the item.
+								IF a FALSE works on TRUE, let me know and I'll change it to TRUE.
+								IF a FALSE doesn't work on TRUE, let me know and I'll cancel it out.
+		
+		 11
+			29 		DRAGONFLIGHT RELEASED		Australia	29 November 2022	10am AEDT
+						Was an interesting launch with the Zeppelin (yep Horde main) not arriving.
+							was still glad I was up for the launch though.
+		
+			26		Changed my mind, only the boxes I assume cant be opened are struck out.
+						not sure on the profession ones, never come across those boxes myself.
+		
+			21		Changed struck out (--) entries to 'false'
+						Checked by changing Celestial's Box to false, looted it and it didnt Open
+							then back to true and it Opened it... the scientific method! :)
+								we'll see what happens, hopefully nothing bad lol :P
+		
+					Change layout slightly...
+						Guesstimated each expansion start for segmenting... probably off a bit with some.
+		
+					Went back and looked at the comments on the original kAutoLoot addon.
+						Surprisingly the comments I made, weren't in my LUA lol.
+		
+					[118697] = false,	--	NO	Big Bag of Pet Supplies
+					[127853] = true,	--		Iron Fleet Treasure Chest
+					[139048] = true,	--		Small Legion Chest
+					[139049] = true,	--		Large Legion Chest
+		
+			20		[187710] = true,	--		Anniversary Gift 
+		
+			17		kAO 10.0.2.221117.zip 		Curse: Uploaded as kAutoOpen Dragonflight
+		

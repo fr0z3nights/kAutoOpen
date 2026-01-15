@@ -1,0 +1,38 @@
+## X-Flavor: retail
+## X-Expansion: TWW
+## Interface: 110205, 110207, 120000
+## Version: 2025-11-17
+
+## Title: !AutoOpen 11.2.7 (12.0.0)
+
+## Notes: !AutoOpen Cache Items
+## Author: fr0z3nights (Original Kellett)
+## IconTexture: Interface\AddOns\kAutoOpen\Icons\kAutoIcon.tga
+
+## Category-enUS: Inventory
+## Category-deDE: Inventar
+## Category-esES: Inventario
+## Category-esMX: Inventario
+## Category-frFR: Inventaire
+## Category-itIT: Inventario
+## Category-koKR: 소지품
+## Category-ptBR: Inventário
+## Category-ruRU: Предметы
+## Category-zhCN: 物品栏
+## Category-zhTW: 物品欄
+
+kAutoOpen12.lua
+kAutoOpen11.lua
+kAutoOpen10.lua
+kAutoOpen09.lua
+kAutoOpen08.lua
+kAutoOpen07.lua
+kAutoOpen06.lua
+kAutoOpen05.lua
+kAutoOpen04.lua
+kAutoOpen03.lua
+kAutoOpen02.lua
+kAutoOpen01.lua
+kAutoOpenEV.lua
+kAutoOpenMX.lua
+
