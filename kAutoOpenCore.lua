@@ -28,7 +28,8 @@ end
 
 SLASH_KAUTOOPEN1 = "/kao"
 SLASH_KAUTOOPEN2 = "/kautoopen"
-SlashCmdList["KAUTOOPEN"] = function(msg)
+_G.SlashCmdList = _G.SlashCmdList or {}
+_G.SlashCmdList["KAUTOOPEN"] = function(msg)
 	msg = tostring(msg or "")
 	local cmd, rest = msg:match("^(%S+)%s*(.-)%s*$")
 	cmd = (cmd or ""):lower()
